@@ -54,13 +54,16 @@ class Headphone implements Device<boolean> {
     }
 }
 
+
 const phone = new Phone('Samsung', 100, '2G, 3G, 4G, WiFi');
 const laptop = new Laptop('HP', 34, 'WiFi');
 const headphone = new Headphone('Nokia', 234, false);
 
-const devices: Device<any>[] = [phone, laptop, headphone];
+type internetData = string | boolean;
 
-function showInfo(device: Device<any>) {
+const devices: Device<internetData>[] = [phone, laptop, headphone];
+
+function showInfo(device: Device<internetData>) {
     return device.getInfo();
 }
 
