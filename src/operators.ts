@@ -5,7 +5,7 @@ let num_3: number = 3;
 let str_: string = 'Hello';
 
 let arr_1: number[] = [1, 222, 333, 4444];
-let arr_2: Array<string> = ['1', '2', '3'];
+let arr_2: Array<string> = ['1', 'мдфвнідфм', '3'];
 
 let tuple: [string, number, number] = ['tuple', 3, 5];
 
@@ -76,6 +76,7 @@ let outputInfo3 = function (): void {
     else {
         console.log('bool = true');
     }
+
 }
 
 

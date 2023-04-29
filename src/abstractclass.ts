@@ -51,3 +51,9 @@ const rect = new Rectangle("red", false, 12, 15);
 
 console.log(`Circle area: ${circle.getArea()} and ${circle.showInfo()}`);
 console.log(`Rectangle area: ${rect.getArea()} and ${rect.showInfo()}`);
+
+try {
+
+} catch (err) {
+
+}

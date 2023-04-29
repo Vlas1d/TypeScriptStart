@@ -4,7 +4,7 @@ let num_2 = 14.56;
 let num_3 = 3;
 let str_ = 'Hello';
 let arr_1 = [1, 222, 333, 4444];
-let arr_2 = ['1', '2', '3'];
+let arr_2 = ['1', 'мдфвнідфм', '3'];
 let tuple = ['tuple', 3, 5];
 var Colors;
 (function (Colors) {
